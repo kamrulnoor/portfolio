@@ -184,7 +184,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* Contact Form Styles */
+/* Contact Page Styles */
 .contact-content {
     background: linear-gradient(135deg, #1c1c1c, #2c2c2c, #3c3c3c, #0f0f0f); /* Black and grey gradient */
     color: #fff; /* White font */
@@ -194,8 +194,8 @@ nav a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     max-width: 800px;
     margin-left: auto;
-    margin-right:auto;
-    text-align:left;
+    margin-right: auto;
+    text-align: left;
 }
 
 .contact-content h1 {
@@ -212,11 +212,6 @@ form {
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-.form-row {
-    display: flex;
     gap: 10px;
 }
 
@@ -251,6 +246,7 @@ textarea {
 .btn-submit:hover {
     background-color: #005bb5; /* Darker blue on hover */
 }
+
 
 /* Photography Page Styles */
 .photography-content {
